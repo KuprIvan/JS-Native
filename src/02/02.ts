@@ -10,7 +10,8 @@ type TechnologiesItemType = {
     id: number
     title: string
 }
-type StudentType = {
+export type StudentType = {
+    id: number
     name: string
     age: number
     isStudent: boolean
@@ -24,7 +25,8 @@ type SchoolType = {
     mentors: Array<string>
 }
 
-const student:StudentType = {
+export const student:StudentType = {
+    id: 1,
     name: 'Ivan',
     age: 25,
     isStudent: true,

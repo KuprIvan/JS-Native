@@ -2,7 +2,7 @@ export type StreetType = {
     title: string
 }
 export type AddressType = {
-    number: number
+    number?: number
     street: StreetType
 }
 export type HouseType = {
